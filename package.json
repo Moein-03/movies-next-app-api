@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "json-server --watch MoviesNext.json -p 6500 --static ./pictures"  
+    "start": "node_modules/.bin/json-server --watch MoviesNext.json -p 6500 --static ./pictures"  
   },
   "keywords": [],
   "license": "ISC",
